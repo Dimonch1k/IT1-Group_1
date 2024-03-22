@@ -4,9 +4,9 @@
     {
         public string Name { get; private set; }
         public string Autor { get; private set; }
-        public int PublishYear { get; private set; }
+        public string PublishYear { get; private set; }
 
-        public Book(string name_, string autor_, int publishYear_)
+        public Book(string name_, string autor_, string publishYear_)
         {
             setName(name_);
             setAutor(autor_);
@@ -20,7 +20,7 @@
         {
             this.Autor = autor;
         }
-        public void setPublishYear(int year)
+        public void setPublishYear(string year)
         {
             this.PublishYear = year;
         }
