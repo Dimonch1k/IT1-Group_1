@@ -1,0 +1,9 @@
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\bin\Debug\Team_1_Library_Create.exe.config
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\bin\Debug\Team_1_Library_Create.exe
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\bin\Debug\Team_1_Library_Create.pdb
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\obj\Debug\Team_1_Library_Create.csprojAssemblyReference.cache
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\obj\Debug\Team_1_Library_Create.Properties.Resources.resources
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\obj\Debug\Team_1_Library_Create.csproj.GenerateResource.cache
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\obj\Debug\Team_1_Library_Create.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\obj\Debug\Team_1_Library_Create.exe
+C:\Users\student\source\repos\Team_1_Library_Create\IT1-Group_1\obj\Debug\Team_1_Library_Create.pdb
