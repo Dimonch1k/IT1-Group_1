@@ -26,17 +26,19 @@ namespace Team_1_Library_Create
             searchByYear(parameters, libraryBooks, foundedBooks);
             return foundedBooks;
         }
-        private static void searchByName(string parametres, List<Book> libraryBooks,List<Book> foundedBooks) 
+        private static void searchByName(string parameters, List<Book> libraryBooks, List<Book> foundedBooks)
         {
-            foundedBooks = libraryBooks.FindAll(b => b.Name.ToLower().Contains(parametres.ToLower()));
+            foundedBooks.AddRange(libraryBooks.FindAll(b => b.Name.ToLower().Contains(parameters.ToLower())));
         }
-        private static void searchByAutor(string parametres, List<Book> libraryBooks, List<Book> foundedBooks)
+
+        private static void searchByAutor(string parameters, List<Book> libraryBooks, List<Book> foundedBooks)
         {
-            foundedBooks = libraryBooks.FindAll(b => b.Autor.ToLower().Contains(parametres.ToLower()));
+            foundedBooks.AddRange(libraryBooks.FindAll(b => b.Autor.ToLower().Contains(parameters.ToLower())));
         }
-        private static void searchByYear(string parametres, List<Book> libraryBooks, List<Book> foundedBooks)
+
+        private static void searchByYear(string parameters, List<Book> libraryBooks, List<Book> foundedBooks)
         {
-            foundedBooks = libraryBooks.FindAll(b => b.PublishYear .ToLower().Contains(parametres.ToLower()));
+            foundedBooks.AddRange(libraryBooks.FindAll(b => b.PublishYear.ToLower().Contains(parameters.ToLower())));
         }
     }
 }
